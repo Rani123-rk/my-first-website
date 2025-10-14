@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From n HTML</title>
+</head>
+<body>
+    <h2>Date Input Example</h2>
+    <form>
+        <label for="date">select a date:</label><br>
+        <input type="date" id="date" name="date" required>
+        <button type="submit">Submit</button>
+
+    </form>
+    <h3>Registration Form</h3>
+    <form>
+        <!--Username-->
+        <label for="un">Username*:</label><br>
+        <input type="text" id="un" placeholder="Fill in the username" name="username" required>
+        <br>
+        <br>
+    <!--Email-->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" placeholder="ranikamble202324@gmail.com" name="email"><br><br>
+
+        <!--Password Input Field-->
+        <label for="Password">Password*:</label><br>
+        <input type="password" id="Password" name="password" placeholder="Enter your password" required title="password must be at least 6 character long"><br><br>
+        
+        <!--number input field-->
+        <label for="age">Age*:</label><br>
+        <input type="number" id="age" name="age" placeholder="Enter age" max="60" min="18" title="please enter your age in years"><br><br>
+        <button type="submit">submit</button><br><br>
+
+        <!--Date-->
+        <label for="date">DOB:</label><br>
+        <input type="date" id="date" name="date" title="Enter your DOB">
+        <br>
+        <br>
+
+        <!--Time-->
+        <label for="time">class Timing</label>
+        <input type="time" id="time" name="t">
+        <br>
+        <br>
+
+        <!--Url-->
+        <label for="url">Enter your linkedin url:</label>
+        <input type="url" id="url" name="url" placeholder="https://www.xyz.com">
+        <br>
+        <br>
+        <label>
+            <input type="checkbox" value="html" name="html">HTML
+        </label>
+        <label>
+            <input type="checkbox" value="css" name="css">css
+        </label>
+        <label>
+            <input type="checkbox" value="javascript" name="javascript">javascript
+        </label><br>
+
+        <!--radio button-->
+        <br>
+        <br>
+        <label>
+            <input type="radio" name="gender">male
+
+        </label>
+        <label>
+            <input type="radio" name="gender" >female
+
+        </label>
+        <label>
+            <input type="radio" name="gender" >other
+
+        </label>
+        <br>
+        <br>
+
+        <!--file-->
+        <label for="fileupload">upload your file</label>
+        <input type="file" id="file">
+        <br>
+        
+        
+        <!--Range-->
+        <label for="range"></label><br>
+        <input type="range" id="range" name="range">
+        <br>
+        <br>
+
+        <!--select-droplist-->
+        <label for="opt">select skills:</label>
+        <select id="opt" name="skills" >
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">javascript</option>
+        </select>
+        <br>
+        <br>
+
+
+        <!--Textarea-->
+        <label>Enter your comment:</label>
+        <textarea  rows="6" cols="10" id="txt" name="comment"></textarea>
+        <br>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+    </body>
+</html>

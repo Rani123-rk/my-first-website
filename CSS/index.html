@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Introductin to CSS</title>
+    <!--Internal CSS-->
+    <style>
+        /* Group selector - () */
+h1, h2, p{
+    font-style: italic;
+}
+/* Universal selector - */
+*{
+    background-color: black;
+    color: aliceblue;
+}
+/* Tag selector*/
+h1 {
+    font-size: 80px;
+}
+/* ID selector */
+#heading {
+   color: yellow; 
+   text-decoration: underline;
+   text-align:center ;
+}
+#head1 {
+    text-align: end;
+}
+/* class selector */
+.ypara {
+color: aqua;
+background-color: blueviolet;
+}
+#div1{
+    font-size: 40px;
+}
+.upara {
+text-decoration:underline;
+}
+.xpara{
+    font-size: 50px;
+    text-decoration: underline;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+
+    </style>
+        <!--External CSS-->
+   <link href="style1.css" rel="stylesheet"> 
+</head>
+<body>
+    <!--id (name unique)-->
+    <!--Inline CSS-->
+    <h1 id="heading">Well come</h1>
+    <h2 class="xpara">well come to my website</h2>
+    <div id="div1">
+    <p class="ypara">Hello</p>
+    <p>par 1</p>
+    <p>par 2</p>
+    <p>par 3</p>
+    <p>par 4</p>
+    <p>par 5</p>
+    </div>
+<!--id (name unique)-->
+    <div id="div2">
+        <h1 id="heading">My Webpage</h1>
+
+        <div>
+            <h2>heading</h2>
+        <p class="upara">para 2</p>
+        </div>
+
+    <h2>heading</h2>
+    <p>par 3</p>
+
+    <h3>heading</h3>
+        <p>par 4</p>
+       <p>par 5</p>
+    </div>
+
+</body>
+</html>

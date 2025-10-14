@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformations</title>
+    <style>
+        div {
+            width: 100px;
+            height: 50px;
+            background-color: aqua;
+            /* transform: translate(100px,50px); */
+        }
+        div:hover {
+            /* transform: scale(10); */
+            /* transform: rotate(845deg);
+            transform: skew(10deg, 15deg);
+            transition-duration: 4s; */
+
+            transform-origin: bottom right; /* Starts rotation from top-left corner */
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div>Hello</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        body {
+            animation-name: changecolor;
+            animation-duration: 14s;
+            animation-iteration-count: infinite;
+        }
+        h1 {
+            animation: fadeIn;
+            animation-duration: 15s;
+        }
+        @keyframes changecolor {
+            0% {background-color: white;}
+            20% {background-color: red;}
+            40%{background-color: yellow;}
+            60% {background-color: blue;}
+            80% {background-color: greenyellow;}
+            100% {background-color: cyan;}
+        }
+
+        
+        @keyframes fadeIn {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Offer</h1>
+</body>
+</html>
